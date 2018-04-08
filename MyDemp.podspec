@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MyDemp"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of MyDemp."
 
   # This description is used to generate tags and improve search results.
@@ -89,11 +89,34 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyDemp/**/*.{h,m}"
+  # s.source_files  = "MyDemp/**/*.{h,m}"
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
+  s.subspec 'Demp1' do |ss|
+    ss.source_files = 'MyDemp/*.{h,m}'
+    # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
+    # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.osx.frameworks = 'CoreServices'
+  end
+
+  s.subspec 'demp2' do |ss|
+    ss.source_files = 'MyDemp/*.{h,m}'
+    # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
+    # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.osx.frameworks = 'CoreServices'
+  end
+
+  s.subspec 'demp3' do |ss|
+    ss.source_files = 'MyDemp/*.{h,m}'
+    # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
+    # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.osx.frameworks = 'CoreServices'
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
