@@ -15,9 +15,9 @@
 		C50928F02079F05100327CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50928EF2079F05100327CEA /* main.m */; };
 		C50928FA2079F05100327CEA /* TestSubSpecsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50928F92079F05100327CEA /* TestSubSpecsTests.m */; };
 		C50929052079F05100327CEA /* TestSubSpecsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50929042079F05100327CEA /* TestSubSpecsUITests.m */; };
-		C5092BBF207A07BF00327CEA /* Demp3.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BBA207A07BF00327CEA /* Demp3.m */; };
-		C5092BC0207A07BF00327CEA /* Demp2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BBC207A07BF00327CEA /* Demp2.m */; };
-		C5092BC1207A07BF00327CEA /* Demp1.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BBD207A07BF00327CEA /* Demp1.m */; };
+		C5092BCC207A0F8C00327CEA /* Demp3.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BC4207A0F8C00327CEA /* Demp3.m */; };
+		C5092BCD207A0F8C00327CEA /* Demp2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BC8207A0F8C00327CEA /* Demp2.m */; };
+		C5092BCE207A0F8C00327CEA /* Demp1.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BCB207A0F8C00327CEA /* Demp1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		C50929002079F05100327CEA /* TestSubSpecsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSubSpecsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50929042079F05100327CEA /* TestSubSpecsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubSpecsUITests.m; sourceTree = "<group>"; };
 		C50929062079F05100327CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5092BB9207A07BF00327CEA /* Demp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp2.h; sourceTree = "<group>"; };
-		C5092BBA207A07BF00327CEA /* Demp3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp3.m; sourceTree = "<group>"; };
-		C5092BBB207A07BF00327CEA /* Demp1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp1.h; sourceTree = "<group>"; };
-		C5092BBC207A07BF00327CEA /* Demp2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp2.m; sourceTree = "<group>"; };
-		C5092BBD207A07BF00327CEA /* Demp1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp1.m; sourceTree = "<group>"; };
-		C5092BBE207A07BF00327CEA /* Demp3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp3.h; sourceTree = "<group>"; };
+		C5092BC4207A0F8C00327CEA /* Demp3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp3.m; sourceTree = "<group>"; };
+		C5092BC5207A0F8C00327CEA /* Demp3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp3.h; sourceTree = "<group>"; };
+		C5092BC7207A0F8C00327CEA /* Demp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp2.h; sourceTree = "<group>"; };
+		C5092BC8207A0F8C00327CEA /* Demp2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp2.m; sourceTree = "<group>"; };
+		C5092BCA207A0F8C00327CEA /* Demp1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp1.h; sourceTree = "<group>"; };
+		C5092BCB207A0F8C00327CEA /* Demp1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		C50928D42079F05100327CEA = {
 			isa = PBXGroup;
 			children = (
-				C5092BB8207A07BF00327CEA /* MyDemp */,
+				C5092BC2207A0F8C00327CEA /* MyDemp */,
 				C50928DF2079F05100327CEA /* TestSubSpecs */,
 				C50928F82079F05100327CEA /* TestSubSpecsTests */,
 				C50929032079F05100327CEA /* TestSubSpecsUITests */,
@@ -142,18 +142,42 @@
 			path = TestSubSpecsUITests;
 			sourceTree = "<group>";
 		};
-		C5092BB8207A07BF00327CEA /* MyDemp */ = {
+		C5092BC2207A0F8C00327CEA /* MyDemp */ = {
 			isa = PBXGroup;
 			children = (
-				C5092BBB207A07BF00327CEA /* Demp1.h */,
-				C5092BBD207A07BF00327CEA /* Demp1.m */,
-				C5092BB9207A07BF00327CEA /* Demp2.h */,
-				C5092BBC207A07BF00327CEA /* Demp2.m */,
-				C5092BBE207A07BF00327CEA /* Demp3.h */,
-				C5092BBA207A07BF00327CEA /* Demp3.m */,
+				C5092BC3207A0F8C00327CEA /* Demp3 */,
+				C5092BC6207A0F8C00327CEA /* Demp2 */,
+				C5092BC9207A0F8C00327CEA /* Demp1 */,
 			);
 			name = MyDemp;
 			path = ../MyDemp;
+			sourceTree = "<group>";
+		};
+		C5092BC3207A0F8C00327CEA /* Demp3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5092BC4207A0F8C00327CEA /* Demp3.m */,
+				C5092BC5207A0F8C00327CEA /* Demp3.h */,
+			);
+			path = Demp3;
+			sourceTree = "<group>";
+		};
+		C5092BC6207A0F8C00327CEA /* Demp2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5092BC7207A0F8C00327CEA /* Demp2.h */,
+				C5092BC8207A0F8C00327CEA /* Demp2.m */,
+			);
+			path = Demp2;
+			sourceTree = "<group>";
+		};
+		C5092BC9207A0F8C00327CEA /* Demp1 */ = {
+			isa = PBXGroup;
+			children = (
+				C5092BCA207A0F8C00327CEA /* Demp1.h */,
+				C5092BCB207A0F8C00327CEA /* Demp1.m */,
+			);
+			path = Demp1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,12 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5092BC0207A07BF00327CEA /* Demp2.m in Sources */,
+				C5092BCD207A0F8C00327CEA /* Demp2.m in Sources */,
 				C50928E52079F05100327CEA /* ViewController.m in Sources */,
 				C50928F02079F05100327CEA /* main.m in Sources */,
-				C5092BC1207A07BF00327CEA /* Demp1.m in Sources */,
+				C5092BCE207A0F8C00327CEA /* Demp1.m in Sources */,
 				C50928E22079F05100327CEA /* AppDelegate.m in Sources */,
-				C5092BBF207A07BF00327CEA /* Demp3.m in Sources */,
+				C5092BCC207A0F8C00327CEA /* Demp3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
