@@ -18,6 +18,7 @@
 		C5092BCC207A0F8C00327CEA /* Demp3.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BC4207A0F8C00327CEA /* Demp3.m */; };
 		C5092BCD207A0F8C00327CEA /* Demp2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BC8207A0F8C00327CEA /* Demp2.m */; };
 		C5092BCE207A0F8C00327CEA /* Demp1.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BCB207A0F8C00327CEA /* Demp1.m */; };
+		C5092BD2207A112A00327CEA /* Demp4.m in Sources */ = {isa = PBXBuildFile; fileRef = C5092BD1207A112A00327CEA /* Demp4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		C5092BC8207A0F8C00327CEA /* Demp2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp2.m; sourceTree = "<group>"; };
 		C5092BCA207A0F8C00327CEA /* Demp1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demp1.h; sourceTree = "<group>"; };
 		C5092BCB207A0F8C00327CEA /* Demp1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demp1.m; sourceTree = "<group>"; };
+		C5092BD0207A112A00327CEA /* Demp4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demp4.h; sourceTree = "<group>"; };
+		C5092BD1207A112A00327CEA /* Demp4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demp4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,7 @@
 		C5092BC3207A0F8C00327CEA /* Demp3 */ = {
 			isa = PBXGroup;
 			children = (
+				C5092BCF207A111B00327CEA /* Demp4 */,
 				C5092BC4207A0F8C00327CEA /* Demp3.m */,
 				C5092BC5207A0F8C00327CEA /* Demp3.h */,
 			);
@@ -178,6 +182,15 @@
 				C5092BCB207A0F8C00327CEA /* Demp1.m */,
 			);
 			path = Demp1;
+			sourceTree = "<group>";
+		};
+		C5092BCF207A111B00327CEA /* Demp4 */ = {
+			isa = PBXGroup;
+			children = (
+				C5092BD0207A112A00327CEA /* Demp4.h */,
+				C5092BD1207A112A00327CEA /* Demp4.m */,
+			);
+			path = Demp4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +332,7 @@
 				C5092BCE207A0F8C00327CEA /* Demp1.m in Sources */,
 				C50928E22079F05100327CEA /* AppDelegate.m in Sources */,
 				C5092BCC207A0F8C00327CEA /* Demp3.m in Sources */,
+				C5092BD2207A112A00327CEA /* Demp4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

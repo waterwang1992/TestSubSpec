@@ -1,5 +1,5 @@
 //
-//  Demp3.h
+//  Demp4.h
 //  TestSubSpecs
 //
 //  Created by 周冯婷 on 2018/4/8.
@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Demp4.h"
-@interface Demp3 : NSObject
-@property (strong, nonatomic) Demp4 *demp4;
+
+@interface Demp4 : NSObject
+
 @end
