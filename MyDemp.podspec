@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MyDemp"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of MyDemp."
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.subspec 'Demp1' do |ss|
-    ss.source_files = 'MyDemp/*.{h,m}'
+    ss.source_files = 'MyDemp/Demp1.{h,m}'
     # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
     # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
     # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'demp2' do |ss|
-    ss.source_files = 'MyDemp/*.{h,m}'
+    ss.source_files = 'MyDemp/Demp2.{h,m}'
     # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
     # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
     # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'demp3' do |ss|
-    ss.source_files = 'MyDemp/*.{h,m}'
+    ss.source_files = 'MyDemp/Demp3.{h,m}'
     # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
     # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
     # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
